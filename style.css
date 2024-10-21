@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#home {
+    background: url('gym-hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home .hero-text p {
+    font-size: 1.2rem;
+}
+
+#home button {
+    padding: 0.7em 1.5em;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#home button:hover {
+    background: #d62828;
+}
+
+/* Section Styles */
+section {
+    padding: 4em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about p, #services .service-item p {
+    margin: 1em 0;
+}
+
+.service-item {
+    margin: 1em 0;
+}
+
+/* Contact Form */
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+form button {
+    padding: 0.7em 1.5em;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #d62828;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
